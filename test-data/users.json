@@ -1,0 +1,32 @@
+{
+  "testUsers": [
+    {
+      "id": 1,
+      "username": "testuser1",
+      "email": "testuser1@example.com",
+      "password": "TestPassword123!",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "testadmin",
+      "email": "testadmin@example.com",
+      "password": "AdminPassword123!",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "username": "testviewer",
+      "email": "testviewer@example.com",
+      "password": "ViewerPassword123!",
+      "role": "viewer"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "username": "invalid",
+      "email": "invalid@example.com",
+      "password": "wrong"
+    }
+  ]
+}

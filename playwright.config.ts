@@ -26,6 +26,10 @@ export default defineConfig({
     ['json', { outputFile: 'test-results/results.json' }],
     ['list']
   ],
+
+  // Global setup and teardown (optional)
+  // globalSetup: require.resolve('./global-setup'),
+  // globalTeardown: require.resolve('./global-teardown'),
   
   // Shared settings for all projects
   use: {
